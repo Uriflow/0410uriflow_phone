@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #F4F4F4;
+  }
+  
+  body{
+    background-image: url(../img/background.png);
+    background-size: cover;
+  }
+  
+  a{
+    pointer-events: auto;
+  }
+
+  /* ============== 尿液狀況表 ============== */
+
+  .urine_title{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 16px;
+}
+
+.urine_title h1{
+    font-size: 24px;
+    margin-left: 70px;
+}
+/* end */
+
+
+/* ============== 切換按鈕 ============== */
+.button-box{
+    width: 325px;
+    margin: 16px;
+    position: relative;
+    border-radius: 30px;
+    background: #FFFFFF;
+}
+
+.toggle-btn{
+    padding: 10px 70px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    color: #4c4c4c;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#btn{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 162px;
+    height: 36px;
+    background: #32A351;
+    border-radius: 30px;
+    transition: .5s;
+    margin: 3px;
+}
+/* end */
+
+
+/* ============== 表格 ============== */
+  
+.chartbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: white;
+    margin: 16px;
+}
+/* end */
+
+
+/* ============== 尿液顏色 ============== */
+.urinecolor{
+  margin-top: 16px;
+}
+
+.urinecolor h1{
+  font-size: 18px;
+  margin-left: 150px;
+  line-height: 16px;
+}
+
+.yellow{
+  height: 80px;
+  background-color: #FEFFDB;
+  margin: 16px;
+  border-radius: 10px;
+}
+
+.yellow p{
+  color: #4c4c4c;
+  font-weight: 900;
+  padding-left: 16px;
+  padding-top: 12px;
+}
+/* end */
+
+
+/* ============== 尿量紀錄 ============== */
+.urinevolumn{
+  margin-top: 16px;
+}
+
+.urinevolumn h1{
+  font-size: 18px;
+  margin-left: 150px;
+  line-height: 16px;
+}
+
+.volume_lists{
+  background-color: #F4F4F4;
+  height: 410px;
+  border-radius: 10px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.line{
+  height: 2px;
+  background-color: #C3C3C3;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.volume_tt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.volume_tt p{
+  color: #4c4c4c;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 16px;
+}
+
+.volumn_date{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.volumn_date p{
+  color: #4c4c4c;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 16px;
+}
+/* end */
+
+
