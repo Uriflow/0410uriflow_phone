@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #F4F4F4;
+  }
+  
+  body{
+    background-image: url(../img/background_row.png);
+    background-size: cover;
+  }
+  
+  a{
+    pointer-events: auto;
+  }
+
+/* ============== 風險分級對照表 ============== */
+.risk_top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 16px;
+}
+
+.risk_top h1{
+    font-size: 24px;
+    margin-left: 36px;
+}
+
+.risk_levels{
+    background-color: #F4F4F4;
+    width:100%;
+    height: 2600px;
+    margin-top: 30px;
+    padding: 16px;
+}
+
+.information{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+/* == 下拉箭頭 == */
+.scroll0{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 148px;
+}
+
+.scroll1{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 145px;
+}
+
+.scroll2{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 125px;
+}
+
+.scroll3{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 122px;
+}
+
+.scroll4{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 130px;
+}
+
+.scroll5{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 145px;
+}
+
+.scroll6{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 148px;
+}
+
+.scroll7{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 136px;
+}
+.risk_tt{
+    display: flex;
+    flex-direction: row;
+}
+
+.risk_tt h1{
+    color: #4c4c4c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.line{
+    width: 330px;
+    height: 2px;
+    background-color: #c3c3c33b;
+}
+
+/* 下拉紅血球 */
+
+.more_inf{
+    background-color: #ededed;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.RBC,.WBC{
+    width: 325px;
+    height: 250px;
+}
+.ecoli{
+    width: 325px;
+    height: 210px;
+}
+.KP{
+    width: 325px;
+    height: 220px;
+}
+.EPC{
+    width: 325px;
+    height: 260px;
+}
+
+.more_inf h1{
+    color: #4c4c4c;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.more_inf p{
+    color: #4c4c4c;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.risk_line{
+    display: flex;
+    flex-direction: row;
+}
+.s01{
+    width: 86px; height: 8px;
+    background-color: #8AC33E;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.s02{
+    width: 86px; height: 8px;
+    background-color: #FF7A00;
+    margin-right: 16px;
+}
+
+.s03{
+    width: 86px; height: 8px;
+    background-color: #FA1515;
+}
+
+
+/* === END === */
+
+
+/* ==== 下拉動畫設定 ==== */
+details {
+    width: 320px;
+    transition: 0.2s background linear;
+  }
+    
+  details:hover {
+    background: #dad3b100;
+  }
+  
+  details > summary {
+    transition: color 1s;
+  }
+  
+  details[open] > summary {
+    color: #d9103e;
+  }
+
+  details {
+    transition: 0.2s background linear;
+  }
+  
+  details:hover {
+    background: #dad3b100;
+  }
+  
+  details > summary {transition: color 1s;}
+  details[open] > summary {color: #3EAD3A;}
+  
+  
+  summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  summary h1{
+    color: #4c4c4c;
+    font-size: 16px;
+  }
+ 
+  summary::after {
+    content: '';
+    width: 18px;
+    height: 10px;
+    background: url(../img/scrolldown.svg) no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+  }
+  
+  
+  details[open] > summary {border-bottom: 2px solid #ffffff;}
+  
+  details[open] > summary::after {
+    transform: rotate(-180deg);
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary {
+    border-radius: 5px;
+    color: #30353b;
+  }
+  
+  details[open] summary {border-radius: 5px 5px 0 0;}
+
+  /* === END === */

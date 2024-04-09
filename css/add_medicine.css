@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #F4F4F4;
+  }
+  
+  body{
+    background-image: url(../img/background_row.png);
+    background-size: cover;
+  }
+  
+  a{
+    pointer-events: auto;
+  }
+
+/* ============== 添加藥物 ============== */
+.add_top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 16px;
+}
+
+.add_top h1{
+    font-size: 24px;
+    margin-left: 75px;
+}
+
+.medicine h1{
+  font-size: 18px;
+  margin-left: 100px;
+  margin-top: 16px;
+  font-weight: 300;
+}
+
+.edit_medicine{
+  background-color: #F4F4F4;
+  margin: 16px;
+  height: 340px;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.done{
+  background-color: #F4F4F4;
+  margin: 16px;
+  height: 60px;
+  border-radius: 60px;
+  margin-top: 110px;
+}
+
+.done h2{
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4c4c4c;
+}
+
+.line{
+  height: 2px;
+  margin-top: 3px;
+  background-color: #E8E8E8;
+}
+
+.name p{
+  font-size: 16px;
+  color: #4c4c4c;
+}
+
+.keflex{
+  background-color: #E8E8E8;
+  height: 32px;
+  border-radius: 15px;
+  margin-top: 16px;
+}
+
+.keflex p{
+  color: #4c4c4c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 32px;
+}
+
+.type p{
+  font-size: 16px;
+  color: #4c4c4c;
+  margin-top: 32px;
+}
+
+.type_3{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin: 16px;
+}
+
+.type_3 p{
+  color: #4c4c4c;
+  font-size: 16px;
+}
+
+.type1{
+  background-color: #E8E8E8;
+  height: 32px;
+  width: 70px;
+  border-radius: 30px;
+}
+
+.type1 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 32px;
+}
+
+
+.weight{
+  margin-top: 32px;
+}
+
+.weight p{
+  font-size: 16px;
+  color: #4c4c4c;
+}
+
+.weight_num{
+  background-color: #E8E8E8;
+  height: 32px;
+  border-radius: 15px;
+  margin-top: 16px;
+}
+
+.weight_num p{
+  color: #4c4c4c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 32px;
+}
+
+
+.unit{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin: 16px;
+}
+
+.unit p{
+  color: #4c4c4c;
+  font-size: 16px;
+}
+
+.unit1{
+  background-color: #E8E8E8;
+  height: 32px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.unit1 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 32px;
+}
