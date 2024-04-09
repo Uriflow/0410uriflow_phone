@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #F4F4F4;
+}
+
+body{
+  background-image: url(../img/background.png);
+  background-size: cover;
+}
+
+a{
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+/* ============== 上方橫列 ============== */
+
+.lists{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 45px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.lists img{
+  width: 44px;
+}
+
+.Uriflow{
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 44px;
+  margin-left: 40px;
+}
+
+/* === END === */
+
+/* ============== 尿液量 ============== */
+.urine_weight{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.urine_title{
+  display: flex;
+  flex-direction: row;
+  align-items: last baseline;
+  justify-content: flex-end;
+  margin: 16px;
+}
+
+.weight{
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 100px;
+}
+
+.unit{
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.urine_container {
+  position: relative;
+  margin-left: 16px;
+  margin-right: 16px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.5); /* 半透明容器 */
+  border-radius: 0 0 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.urine_container h1 {
+  position: absolute;
+  color: #134325;
+  z-index: 10;
+}
+
+.water_wave {
+  position: absolute;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-top: 10px;
+  width: 320px;
+  height: 130px;
+}
+
+/* .water_wave {
+  position: absolute;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-top: 30px;
+  width: 320px;
+  height: 200px;
+} */
+/* === END === */
+
+
+
+/* ============== 尿液指數 ============== */
+.bacteria_list{
+  margin: 16px;
+  height: 380px;
+  background-color: #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px;
+  border-radius: 10px;
+}
+
+.urine_value{
+  margin-top: 16px;
+}
+
+.urinevalue_title{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.urinevalue_title h1{
+  font-size: 18px;
+  margin-left: 150px;
+  line-height: 16px;
+}
+
+.urinevalue_title img{
+  width: 16px;
+  margin-left: 20px;
+}
+
+
+        /* 細菌數值 */
+
+.bac_cotainer img{
+  width: 34px;
+}
+
+.bac_cotainer{
+  margin-left: 16px;
+  margin-top: 18px;
+  margin-right: 8px;
+  height: 50px;
+}
+
+.bac_cotainer div{
+  display: flex;
+  align-items: center;
+  color: #4c4c4c;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.rbc{
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  line-height: 18px;
+}
+
+h5{
+  color: #FA1515;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.green_line{
+  width: 135px;
+  height: 4px;
+  background-color: #8AC33E;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.orange_line{
+  width: 135px;
+  height: 4px;
+  background-color: #FF7A00;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.red_line{
+  width: 135px;
+  height: 4px;
+  background-color: #FA1515;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.bac_cotainer{
+  display: flex;
+  flex-direction: column;
+}
+
+/* === END === */
+
+/* ============== 警告畫面 ============== */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #ffffffdd;
+  width: 100%;
+  height: 100%;
+}
+
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content img{
+  margin-top: 200px;
+  margin-left: 25px;
+}
+
+.modal-content p{
+  color: #FA1515;
+  font-size: 24px;
+  font-weight: 800;
+  align-items: center;
+  text-align: center;
+}
+
+.warning_tt{
+  padding-top: 50px;
+}
+
+.modal-content span{
+  margin-top: 100px;
+  margin-right: 170px;
+  color: #000000;
+}
