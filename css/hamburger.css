@@ -24,7 +24,8 @@
 
 .grey{
   background-color: #efefef;
-  width: 340px;
+  margin-left: 16px;
+  margin-right: 16px;
   height: 17px;
   margin-left: 20px;
   border-radius: 10px 10px 0 0;
