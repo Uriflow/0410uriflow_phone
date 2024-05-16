@@ -1,1 +1,0 @@
-setTimeout("location.href='./uriflow.html'",5000);
