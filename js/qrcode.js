@@ -1,0 +1,1 @@
+setTimeout("location.href='./uriflow.html'",8000);
